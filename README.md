@@ -133,3 +133,55 @@ GitHub | LinkedIn
 
 📜 License
 This project is licensed under the MIT License.
+
+
+## 🌐 Live Demo
+
+- **Frontend:** https://your-frontend-url.vercel.app  
+- **Backend API:** https://your-backend-url.onrender.com  
+
+> Note: The backend may take a few seconds to wake up if hosted on a free tier.
+📸 Screenshots Section (for README)
+## 📸 Screenshots
+
+### Home Page
+![Home Page](screenshots/home.png)
+
+### Product Listing
+![Product Listing](screenshots/products.png)
+
+### Cart Page
+![Cart](screenshots/cart.png)
+
+### Admin Dashboard
+![Admin Dashboard](screenshots/admin.png)
+📌 Tip:
+
+📦 Deployment Steps (Vercel + Render)
+🚀 Frontend Deployment (Vercel)
+## 🚀 Frontend Deployment (Vercel)
+
+1. Push your frontend code to GitHub
+2. Go to https://vercel.com
+3. Import your GitHub repository
+4. Select the frontend folder
+5. Add environment variables if required
+6. Click **Deploy**
+⚙️ Backend Deployment (Render)
+## ⚙️ Backend Deployment (Render)
+
+1. Push backend code to GitHub
+2. Go to https://render.com
+3. Create a new **Web Service**
+4. Connect your GitHub repository
+5. Set build & start commands:
+   - Build: `npm install`
+   - Start: `npm start`
+6. Add environment variables:
+   - MONGO_URI
+   - JWT_SECRET
+   - PORT
+7. Deploy the service
+
+
+⭐ If you like this project, feel free to give it a star!
